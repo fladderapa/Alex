@@ -1,0 +1,10 @@
+{
+  "name": "Alex",
+  "version": "1.2.6",
+  "dependencies": {
+    "platform": "Polymer/platform#~0.4.1",
+    "polymer": "Polymer/polymer#~0.4.1",
+    "core-toolbar": "Polymer/core-toolbar#~0.4.1"
+  },
+  "devDependencies": {}
+}
