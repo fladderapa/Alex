@@ -45,6 +45,7 @@ html, body {
 
     }
     
+
     .title {
       -webkit-transform-origin: 0;
       transform-origin: 0;
@@ -54,6 +55,35 @@ html, body {
     
     .content {
       padding: 10px 30px;
+    }
+
+    @media only screen and (max-width : 560px) {
+      .title {
+      -webkit-transform-origin: 0;
+      transform-origin: 0;
+      font-size: 30px;
+      font-family: 'Marck Script', cursive;
+      color: #1a2732;
+      }
+      .bottom.indent{
+      margin-left: 20px !important;
+      }
+    }
+
+      @media only screen and (max-width : 420px) {
+      .title {
+      -webkit-transform-origin: 0;
+      transform-origin: 0;
+      font-size: 30px;
+      font-family: 'Marck Script', cursive;
+      }
+    }
+
+    @media only screen and (max-width: 380px){
+    .bottom.indent{
+      margin-left: 0px !important;
+      margin-right: 0px !important;
+      }
     }
 
 
