@@ -9,6 +9,11 @@ html, body {
       background-color: #eee;
     }
 
+    @font-face {
+    font-family: roboto-condensed-light;
+    src: url(/fonts/RobotoCondensed-Light.ttf);
+  }
+
     core-scroll-header-panel {
       position: absolute;
       top: 0;
@@ -27,7 +32,7 @@ html, body {
     /* background for toolbar when it is condensed */
     core-scroll-header-panel::shadow #condensedHeaderBg {
       
-      background: #795548;
+      background: #9e9e9e;
     }
     
     core-toolbar {
@@ -48,8 +53,8 @@ html, body {
     .title {
       -webkit-transform-origin: 0;
       transform-origin: 0;
-      font-size: 40px;
-      font-family: 'Marck Script', cursive;
+      font-size: 60px;
+      font-family: roboto-condensed-light;
       color: white;
     }
     
@@ -63,13 +68,13 @@ html, body {
       transform-origin: 0;
       font-size: 30px;
       font-family: 'Marck Script', cursive;
-      color: black;
+      color: white;
       }
       .bottom.indent{
       margin-left: 20px !important;
       }
       .tall{
-      height: 200px;
+      height: 250px;
       }
     }
 
