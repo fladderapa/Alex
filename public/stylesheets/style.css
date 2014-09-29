@@ -20,14 +20,14 @@ html, body {
     
     /* background for toolbar when it is at its full size */
     core-scroll-header-panel::shadow #headerBg {
-      background-image: url("/images/hero5.jpg");
+      background-image: url("/images/hero9.jpg");
 
     }
     
     /* background for toolbar when it is condensed */
     core-scroll-header-panel::shadow #condensedHeaderBg {
       
-      background: #fff;
+      background: #795548;
     }
     
     core-toolbar {
@@ -50,7 +50,7 @@ html, body {
       transform-origin: 0;
       font-size: 40px;
       font-family: 'Marck Script', cursive;
-      color: black;
+      color: white;
     }
     
     .content {
