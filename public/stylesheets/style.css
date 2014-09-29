@@ -41,8 +41,7 @@ html, body {
     }
 
     .tall{
-      height: 350px;
-
+      height: 550px;
     }
     
 
@@ -51,6 +50,7 @@ html, body {
       transform-origin: 0;
       font-size: 40px;
       font-family: 'Marck Script', cursive;
+      color: black;
     }
     
     .content {
@@ -63,10 +63,13 @@ html, body {
       transform-origin: 0;
       font-size: 30px;
       font-family: 'Marck Script', cursive;
-      color: #1a2732;
+      color: black;
       }
       .bottom.indent{
       margin-left: 20px !important;
+      }
+      .tall{
+      height: 200px;
       }
     }
 
@@ -83,6 +86,12 @@ html, body {
     .bottom.indent{
       margin-left: 0px !important;
       margin-right: 0px !important;
+      }
+      .title {
+      -webkit-transform-origin: 0;
+      transform-origin: 0;
+      font-size: 25px;
+      font-family: 'Marck Script', cursive;
       }
     }
 
