@@ -13,16 +13,18 @@ block content
 					.section.section-profile
 						.container
 							.row
-								.col-md-4
-									img.img-responsive(src="/images/selfie.jpg" style="height: 220px; width: 220px;")
-								.col-md-4
+								.col-md-1
+								.col-md-3
+									img.img-responsive(src="/images/selfie.jpg" style="height: 250px; width: 250px; ")
+								.col-md-4.test
 									p Namn: Alexander Afzelius Puccini
 									p Ålder: 1989-08-30
 									p Adress: Skeppsmäklargatan 37, 120 69, Stockholm
+									p Telefon: 0760236347
 									p E-post: alex.afzelius@gmail.com
 								.col-md-4
-									p.profile-title Profil
-									p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare sem sed quam tempus aliquet vitae eget dolor. Proin eu ultrices libero. Curabitur vulputate vestibulum elementum. Suspendisse id neque a nibh mollis blandit. Quisque varius eros ac purus dignissim.
+									h3.profile-title Profil
+									p(style="font-family: 'PT Sans Narrow', sans-serif !important; font-size: 18px; line-height: 2;") Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare sem sed quam tempus aliquet vitae eget dolor. Proin eu ultrices libero. Curabitur vulputate vestibulum elementum. Suspendisse id neque a nibh mollis blandit. Quisque varius eros ac purus dignissim.
 					.section(style="height: 1000px;")
 	script.
 		var titleStyle = document.querySelector('.title').style;addEventListener('core-header-transform', function(e) {var d = e.detail;var m = d.height - d.condensedHeight;var scale = Math.max(0.75, (m - d.y) / (m / 0.25)  + 0.75);titleStyle.transform = titleStyle.webkitTransform = 'scale(' + scale + ') translateZ(0)';});
