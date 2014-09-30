@@ -50,7 +50,7 @@ html, body {
 
     .test p {
       color: #252525;
-      font-size: 16px;
+      font-size: 14px;
       border-bottom: solid;
       border-width: 1px;
       border-color: #e1e1e1;
@@ -81,7 +81,7 @@ html, body {
     }
 
    .section-profile{
-    margin-top: 150px;
+    margin-top: 50px;
    }
 
    .profile-title {
