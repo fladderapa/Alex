@@ -129,6 +129,38 @@ html, body {
       margin-top: 0px;
    }
 
+   /*CARDS*/
+.panel .btn i,.btn span{
+ color:#666666;
+}
+.panel .panel-heading {
+ background-color:#ffffff;
+ font-weight:700;
+ font-size:16px;
+ color:#262626;
+ border-color:#ffffff;
+}
+.panel .panel-heading a {
+ font-weight:400;
+ font-size:11px;
+}
+.panel .panel-default {
+ border-color:#cccccc;
+}
+.panel .panel-thumbnail {
+ padding:0;
+}
+
+.panel-body{
+  background-color: white;
+}
+
+.projects .col-md-6{
+  padding-top: 20px;
+}
+
+
+
     @media only screen and (max-width : 560px) {
       .title {
       -webkit-transform-origin: 0;

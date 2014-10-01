@@ -22,7 +22,7 @@ block content
 							.row
 								.col-md-1
 								.col-md-3
-									img.img-responsive(src="/images/selfie.jpg" style="height: 250px; width: 250px; ")
+									img.img-responsive(src="/images/selfie.jpg" style="height: 261px; width: 261px; ")
 								.col-md-4.test
 									p Namn: Alexander Afzelius Puccini
 									p Ålder: 1989-08-30
@@ -32,7 +32,40 @@ block content
 								.col-md-4
 									h3.profile-title Profil
 									p(style="font-family: 'PT Sans Narrow', sans-serif !important; font-size: 14px; line-height: 2.5;") Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare sem sed quam tempus aliquet vitae eget dolor. Proin eu ultrices libero. Curabitur vulputate vestibulum elementum. Suspendisse id neque a nibh mollis blandit. Quisque varius eros ac purus dignissim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare sem sed quam tempus aliquet.
-					.section(style="height: 1000px;")
+					.section.projects
+						.container
+							.row
+								.col-md-6
+									.panel-thumbnail
+										img.img-responsive(src='http://www.xn--gullmarsfrisrerna-b0b.se/img/saloon-light2.JPG')
+									.panel-body
+										p.lead Gullmarsfrisörerna
+										p 120k Followers, 900 Posts
+										p
+											img(src='http://api.randomuser.me/portraits/med/men/20.jpg', width='28px', height='28px')
+											img(src='http://api.randomuser.me/portraits/med/men/21.jpg', width='28px', height='28px')
+											img(src='http://api.randomuser.me/portraits/med/men/14.jpg', width='28px', height='28px')
+								.col-md-6
+									.panel-thumbnail
+										img.img-responsive(src='http://109.74.8.246:3000/img/MsTrez.jpg')
+									.panel-body
+										p.lead MsTrez
+										p 120k Followers, 900 Posts
+										p
+											img(src='http://api.randomuser.me/portraits/med/men/20.jpg', width='28px', height='28px')
+											img(src='http://api.randomuser.me/portraits/med/men/21.jpg', width='28px', height='28px')
+											img(src='http://api.randomuser.me/portraits/med/men/14.jpg', width='28px', height='28px')
+							.row
+								.col-md-6
+									.panel-thumbnail
+										img.img-responsive(src='http://alexandrapuccini.se/img/alexandra-skolkampanj.jpg')
+									.panel-body
+										p.lead Alexandra Puccini
+										p 120k Followers, 900 Posts
+										p
+											img(src='http://api.randomuser.me/portraits/med/men/20.jpg', width='28px', height='28px')
+											img(src='http://api.randomuser.me/portraits/med/men/21.jpg', width='28px', height='28px')
+											img(src='http://api.randomuser.me/portraits/med/men/14.jpg', width='28px', height='28px')
 	script.
 		var titleStyle = document.querySelector('.title').style;addEventListener('core-header-transform', function(e) {var d = e.detail;var m = d.height - d.condensedHeight;var scale = Math.max(0.75, (m - d.y) / (m / 0.25)  + 0.75);titleStyle.transform = titleStyle.webkitTransform = 'scale(' + scale + ') translateZ(0)';});
 	
