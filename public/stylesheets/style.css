@@ -83,19 +83,14 @@ html, body {
    .section-profile{
     margin-top: 75px;
     padding-right: 15px;
-    padding-right: 15px;
+    padding-left: 15px;
    }
 
   .section-projects{
     margin-top: 75px;
    }
 
-.container-profile{
-  background-color: white;
-  padding: 50px;
-  border-radius: 5px;
-  border-color: #d2d2d2;
-}
+
 
 
 
@@ -120,7 +115,7 @@ html, body {
 
   .headline p span {
     padding: 0 10px;
-    background-color: white;
+    background-color: #eee;
   }
 
   .headline h1 {
