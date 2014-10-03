@@ -34,12 +34,13 @@ html, body {
     core-scroll-header-panel::shadow #headerBg {
       background-image: url("/images/hero9.jpg");
 
+
     }
     
     /* background for toolbar when it is condensed */
     core-scroll-header-panel::shadow #condensedHeaderBg {
       
-      background: #00695c;
+      background: rgba(0, 0, 0, 0.8);
     }
     
     core-toolbar {
@@ -89,10 +90,6 @@ html, body {
   .section-projects{
     margin-top: 75px;
    }
-
-
-
-
 
    .headline {
     position: relative;
