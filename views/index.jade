@@ -4,7 +4,7 @@ block content
 	core-drawer-panel(responsiveWidth="5000px", rightDrawer="true", disableSwipe="true;")
 		div.drawer(drawer)
 		div(main)
-			core-scroll-header-panel(condenses='condenses')
+			core-scroll-header-panel(noDissolve='true', noReveal='true')
 				core-toolbar.tall
 					div(flex='flex')
 					core-icon-button(icon='drawer', onclick="document.querySelector('core-drawer-panel').togglePanel();")
@@ -29,7 +29,8 @@ block content
 								.col-md-6
 									.panel.panel-default
 										.panel-thumbnail
-											img.img-responsive(src='http://www.xn--gullmarsfrisrerna-b0b.se/img/saloon-light2.JPG')
+											a(href="/gullmarsfrisorerna")
+												img.img-responsive(src='http://www.xn--gullmarsfrisrerna-b0b.se/img/saloon-light2.JPG')
 										.panel-body
 											p.lead Gullmarsfrisörerna
 											p 120k Followers, 900 Posts

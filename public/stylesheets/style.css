@@ -33,21 +33,19 @@ html, body {
     /* background for toolbar when it is at its full size */
     core-scroll-header-panel::shadow #headerBg {
       background-image: url("/images/hero9.jpg");
-
-
     }
     
     /* background for toolbar when it is condensed */
-    core-scroll-header-panel::shadow #condensedHeaderBg {
+/*    core-scroll-header-panel::shadow #condensedHeaderBg {
       
-      background: rgba(0, 0, 0, 0.8);
+      background: rgba(0, 0, 0, 0.6);
     }
     
     core-toolbar {
       color: #f1f1f1;
       fill: #f1f1f1;
       background-color: transparent;
-    }
+    }*/
 
     h1 {
       color: #252525;
@@ -64,9 +62,9 @@ html, body {
       font-family: 'PT Sans Narrow', sans-serif !important;
     }
 
-    .drawer{
+/*    .drawer{
       background-color: #eee;
-    }
+    }*/
 
     .tall{
       height: 550px;
