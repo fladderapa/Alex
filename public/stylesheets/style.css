@@ -31,12 +31,20 @@ html, body {
     }
     
     /* background for toolbar when it is at its full size */
-      core-scroll-header-panel::shadow #headerBg {
+    .indexHeader::shadow #headerBg{
       background-image: url("/images/hero9.jpg");
     }
+
+/*    .indexHeader::shadow #condensedHeaderBg{
+      background-color: blue;
+    }*/
+
+    .gullmarsHeader::shadow #headerBg{
+      background-image: url("http://www.xn--gullmarsfrisrerna-b0b.se/img/saloon-light2.JPG");
+    }
+     
     
     /* background for toolbar when it is condensed */
-    
     
     core-toolbar {
       color: #f1f1f1;
