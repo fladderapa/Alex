@@ -1,8 +1,10 @@
 extends layout
 
 block content
-	core-scroll-header-panel.gullmarsHeader(noReveal='true')
+	core-scroll-header-panel.gullmarsHeader(condenses='true')
 		core-toolbar.tall
+			.div(flex)
+			core-icon-button(icon="arrow-back")
 			.bottom.indent.title Gullmarsfrisörerna
 		.content
 			.section(style="height: 1000px;")
