@@ -6,7 +6,7 @@ html, body {
       margin: 0;
       font-family: sans-serif;
       color: #5f5f5f;
-      background-color: #eee;
+      background-color: black;
       font-family: roboto-regular;
       font-size: 14px;
     }
@@ -242,26 +242,26 @@ nav a {
 }
 
 article {
-  background: linear-gradient(45deg, #9e0c80, #fa602a);
+  background: linear-gradient(45deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
   position: relative;
 }
 article:first-child h3 {
   font-size: 3em;
 }
 article:nth-child(2) {
-  background: linear-gradient(45deg, #fa602a, #fcb400);
+
 }
 article:nth-child(3) {
-  background: linear-gradient(45deg, #00e2ff, #fa602a);
+
 }
 article:nth-child(4) {
-  background: linear-gradient(45deg, #9e0c80, #fcb400);
+
 }
 article:nth-child(5) {
-  background: linear-gradient(45deg, #fa602a, #00e2ff);
+
 }
 article:nth-child(6) {
-  background: linear-gradient(45deg, #9e0c80, #00e2ff);
+
 }
 article:last-child h3 {
   font-size: 3em;
@@ -338,7 +338,10 @@ article .comments {
   .features {
     position: relative;
     overflow: auto;
-    margin-bottom: 2rem;
+  }
+
+  .footer {
+    display: none;
   }
 
   .wrapper {
@@ -351,6 +354,8 @@ article .comments {
     min-height: 200px;
     width: 33.3%;
   }
+
+
   article:first-child, article:last-child {
     min-height: 400px;
     width: 33.3%;
