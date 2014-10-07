@@ -1,0 +1,105 @@
+extends layout
+
+block content
+	core-scroll-header-panel.indexHeader(condenses='true')
+		core-toolbar.tall
+			.bottom.indent.title Alexander Afzelius Puccini
+		.content
+			.section
+				.container
+					.row
+						.col-xs-6
+							.div(style="background-color: white; text-align:center;")
+								img(src="/images/blogIcon.ico", style="height: 32px;")
+						.col-xs-6
+							.div(style="background-color: white; text-align:center;")
+								img(src="/images/blogIcon.ico", style="height: 32px;")
+			.section.section-profile
+				.container
+					.row
+						.col-xs-12.text-center
+							.headline
+								h1
+									|Snabbfakta
+			.section.section-projects
+				.container
+					.row
+						.col-xs-12.text-center
+							h1
+								|Tidigare projekt
+			.section
+				.container
+					.row
+						.col-md-6
+							.panel.panel-default
+								.panel-thumbnail
+									a(href="/gullmarsfrisorerna")
+										img.img-responsive(src='http://www.xn--gullmarsfrisrerna-b0b.se/img/saloon-light2.JPG')
+								.panel-body
+									p.lead Gullmarsfrisörerna
+									p 120k Followers, 900 Posts
+									p
+										img(src='http://api.randomuser.me/portraits/med/men/20.jpg', width='28px', height='28px')
+										img(src='http://api.randomuser.me/portraits/med/men/21.jpg', width='28px', height='28px')
+										img(src='http://api.randomuser.me/portraits/med/men/14.jpg', width='28px', height='28px')
+						.col-md-6
+							.panel.panel-default
+								.panel-thumbnail
+									img.img-responsive(src='http://109.74.8.246:3000/img/MsTrez.jpg')
+								.panel-body
+									p.lead MsTrez
+									p 120k Followers, 900 Posts
+									p
+										img(src='http://api.randomuser.me/portraits/med/men/20.jpg', width='28px', height='28px')
+										img(src='http://api.randomuser.me/portraits/med/men/21.jpg', width='28px', height='28px')
+										img(src='http://api.randomuser.me/portraits/med/men/14.jpg', width='28px', height='28px')
+					.row
+						.col-md-6
+							.panel.panel-default
+								.panel-thumbnail
+									img.img-responsive(src='http://alexandrapuccini.se/img/alexandra-skolkampanj.jpg')
+								.panel-body
+									p.lead Alexandra Puccini
+									p 120k Followers, 900 Posts
+									p
+										img(src='http://api.randomuser.me/portraits/med/men/20.jpg', width='28px', height='28px')
+										img(src='http://api.randomuser.me/portraits/med/men/21.jpg', width='28px', height='28px')
+										img(src='http://api.randomuser.me/portraits/med/men/14.jpg', width='28px', height='28px')
+			.section.section-projects
+				.container
+					.row
+						.col-xs-12.text-center
+							h1
+								|Arbeten
+			.section
+				.container
+					.row
+						.col-md-6
+							.panel.panel-default
+								.panel-thumbnail
+									img.img-responsive(src='http://www.4flush.com/wp-content/uploads/2012/12/casino-cosmopol-stockholm.jpg')
+								.panel-body
+									p.lead Casino Cosmopol
+									p 120k Followers, 900 Posts
+									p
+										img(src='http://api.randomuser.me/portraits/med/men/20.jpg', width='28px', height='28px')
+										img(src='http://api.randomuser.me/portraits/med/men/21.jpg', width='28px', height='28px')
+										img(src='http://api.randomuser.me/portraits/med/men/14.jpg', width='28px', height='28px')
+						.col-md-6
+							.panel.panel-default
+								.panel-thumbnail
+									img.img-responsive(src='http://www.adweek.com/files/imagecache/node-detail/news_article/bk.jpg')
+								.panel-body
+									p.lead Burger King
+									p 120k Followers, 900 Posts
+									p
+										img(src='http://api.randomuser.me/portraits/med/men/20.jpg', width='28px', height='28px')
+										img(src='http://api.randomuser.me/portraits/med/men/21.jpg', width='28px', height='28px')
+										img(src='http://api.randomuser.me/portraits/med/men/14.jpg', width='28px', height='28px')
+					
+							
+	script.
+		var titleStyle = document.querySelector('.title').style;addEventListener('core-header-transform', function(e) {var d = e.detail;var m = d.height - d.condensedHeight;var scale = Math.max(0.75, (m - d.y) / (m / 0.25)  + 0.75);titleStyle.transform = titleStyle.webkitTransform = 'scale(' + scale + ') translateZ(0)';});
+	
+
+
