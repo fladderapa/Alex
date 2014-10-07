@@ -228,6 +228,11 @@ nav a {
   text-decoration: none;
 }
 
+ article :hover{
+  text-decoration: none;
+  color: white;
+}
+
 .features h3 {
   margin-top: 0;
   font-weight: 300;
@@ -297,7 +302,7 @@ article h3 {
   text-shadow: 1px 1px 1px #333333;
   font-size: 2em;
   line-height: 1;
-  margin-bottom: 2rem;
+  margin-bottom: 8rem;
 }
 article .comments {
   float: right;
