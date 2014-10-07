@@ -1,9 +1,75 @@
 extends layout
 
 block content
-	.containerBlocks
-		.first first
-		.second second
-		.third third
-		.fourth fourth
-		.last last
+	script(type='text/javascript', src='//use.typekit.net/qqh1pgl.js')
+	script(type='text/javascript')
+			try{Typekit.load();}catch(e){}
+		.wrapper
+			nav(role='navigation')
+				ul
+					li
+						a(href='#') Navigation
+			.features
+				article
+					a(href='#')
+						h3 This is a big story.
+						.comments(href='#') 10
+						p.meta
+							| By
+							strong Josh Larson
+						.thumbnail(style='background-image: url(http://placepuppy.it/400/300);')
+				article
+					a(href='#')
+						h3 This is another one.
+						.comments(href='#') 10
+						p.meta
+							| By
+							strong Josh Larson
+						.thumbnail(style='background-image: url(http://lorempixel.com/400/500);')
+				article
+					a(href='#')
+						h3 Surprise! Free money for everyone.
+						.comments 10
+						p.meta
+							| By
+							strong Josh Larson
+						.thumbnail(style='background-image: url(http://placekitten.com/800/400);')
+				article
+					a(href='#')
+						h3 Not really that important.
+						.comments 10
+						p.meta
+							| By
+							strong Josh Larson
+						.thumbnail(style='background-image: url(http://lorempixel.com/600/400);')
+				article
+					a(href='#')
+						h3 We landed on the moon. Again.
+						.comments 10
+						p.meta
+							| By
+							strong Josh Larson
+						.thumbnail(style='background-image: url(http://lorempixel.com/400/300);')
+				article
+					a(href='#')
+						h3 You won't believe what just happened.
+						.comments 10
+						p.meta
+							| By
+							strong Josh Larson
+						.thumbnail(style='background-image: url(http://placepuppy.it/500/600);')
+				article
+					a(href='#')
+						h3 I haven't seen my left hand in five days.
+						.comments 10
+						p.meta
+							| By
+							strong Josh Larson
+						.thumbnail(style='background-image: url(http://placekitten.com/400/300);')
+			p
+				| This is a pure-CSS, responsive implementation of a
+				a(href='http://theverge.com') Verge-style homepage tile layout
+				| .
+			p
+				| At the smallest view, each article is block-level. They then split into inline-block and are given a min-height. At the largest view, they move to a floated block layout and are given widths and min-heights. The last one has to be positioned absolutely.
+
