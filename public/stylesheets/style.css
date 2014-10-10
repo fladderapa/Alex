@@ -4,36 +4,24 @@
       margin: 0;
       font-family: sans-serif;
       color: #5f5f5f;
-      background: url("/images/backgroundIndex.jpg")no-repeat center center fixed;
+      background: url("https://unsplash.imgix.net/uploads%2F14115408840644deb16b0%2F2dc933e3?q=75&fm=jpg&auto=format&s=7f43646e4d26049c6c39890afb2e5ced")no-repeat center center fixed;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
       background-size: cover;
       font-family: roboto-regular;
       font-size: 14px;
-     /* width:367; height:459px; -webkit-filter: blur(3px); -moz-filter: blur(3px); -o-filter: blur(3px); -ms-filter: blur(3px); filter: blur(3px);*/
     }
 
-    .filter{
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background: url("/images/pattern.png");
-      position: fixed;
-      background-repeat: repeat;
-
+    h1 {
+      color: #252525;
     }
 
-    @font-face {
-    font-family: roboto-condensed-light;
-    src: url(/fonts/RobotoCondensed-Light.ttf);
-  }
+    p {
+      font-size: 14px;
+    }
 
-  @font-face {
-    font-family: roboto-regular;
-    src: url(/fonts/Roboto-Regular.ttf);
-  }
+
 
     core-scroll-header-panel {
       position: absolute;
@@ -41,13 +29,8 @@
       right: 0;
       bottom: 0;
       left: 0;
-
     }
 
-    p {
-      font-size: 14px;
-    }
-    
     /* background for toolbar when it is at its full size */
     .indexHeader::shadow #headerBg{
       background-image: url("/images/hero9.jpg");
@@ -70,11 +53,7 @@
       background-color: transparent;
     }
 
-    h1 {
-      color: #252525;
-    }
-
-    .test p {
+    /*.test p {
       color: #252525;
       font-size: 14px;
       border-bottom: solid;
@@ -83,7 +62,7 @@
       padding-top: 10px;
       padding-bottom: 10px;
       font-family: 'PT Sans Narrow', sans-serif !important;
-    }
+    }*/
 
 /*    .drawer{
       background-color: #eee;
@@ -93,7 +72,6 @@
       height: 550px;
     }
     
-
     .title {
       -webkit-transform-origin: 0;
       transform-origin: 0;
@@ -102,10 +80,6 @@
       color: white;
     }
     
-    /*.content {
-      padding: 10px 30px;
-    }*/
-
    .section-profile{
     margin-top: 75px;
     padding-right: 15px;
@@ -116,8 +90,6 @@
     margin-top: 75px;
    }
 
-
-
    .profile-title {
       font-family: 'Oswald', sans-serif !important;
       color: #252525;
@@ -127,8 +99,7 @@
       margin-top: 0px;
    }
 
-   /*CARDS*/
-
+  /*CARDS*/
 
 .panel {
 margin-bottom: 20px;
@@ -175,47 +146,9 @@ border-radius: 3px !important;
   padding: 15px;
 }
 
-
-
 .btn,.form-control,.panel,.list-group,.well {border-radius:1px;box-shadow:0 0 0;}
 
-    
 
-    @media only screen and (max-width : 560px) {
-      .title {
-      -webkit-transform-origin: 0;
-      transform-origin: 0;
-      font-size: 30px;
-      font-family: 'Marck Script', cursive;
-      color: white;
-      }
-      .bottom.indent{
-      margin-left: 20px !important;
-      }
-      .tall{
-      height: 250px;
-      }
-    }
-
-      @media only screen and (max-width : 420px) {
-      .title {
-      -webkit-transform-origin: 0;
-      transform-origin: 0;
-      font-size: 30px;
-      }
-    }
-
-    @media only screen and (max-width: 380px){
-    .bottom.indent{
-      margin-left: 0px !important;
-      margin-right: 0px !important;
-      }
-      .title {
-      -webkit-transform-origin: 0;
-      transform-origin: 0;
-      font-size: 25px;
-      }
-    }
 
 
 * {
@@ -225,8 +158,6 @@ border-radius: 3px !important;
 .wrapper {
   max-width: 70em;
   margin: 0 auto;
-
-
 }
 
 nav {
@@ -260,12 +191,7 @@ nav a {
 }
 
 article {
-  /*background: linear-gradient(45deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));*/
   position: relative;
-
-
-
-
 }
 
 article:first-child h3 {
@@ -360,7 +286,7 @@ article .comments {
   }
 
     .wrapper {
-    margin-top: 5rem;
+    margin-top: 2rem;
   }
 
   article {
@@ -370,7 +296,7 @@ article .comments {
     vertical-align: top;
     font-size: 1rem;
     overflow: hidden;
-    padding: 10px;
+    padding: 15px;
     -webkit-box-shadow: 30px 30px 25px -18px rgba(0, 0, 0, 0.75);
     -moz-box-shadow:    30px 30px 25px -18px rgba(0, 0, 0, 0.75);
     box-shadow: 30px 30px 25px -18px rgba(0, 0, 0, 0.75);
@@ -378,6 +304,7 @@ article .comments {
   article:last-child {
     width: 100%;
   }
+
 
   article > a {
     position: absolute;
@@ -406,6 +333,7 @@ article .comments {
     width: 33.3%;
   }
 
+
   nav{
     display: none;
   }
@@ -426,3 +354,38 @@ article .comments {
   }
 }
 
+    @media only screen and (max-width : 560px) {
+      .title {
+      -webkit-transform-origin: 0;
+      transform-origin: 0;
+      font-size: 30px;
+      font-family: 'Marck Script', cursive;
+      color: white;
+      }
+      .bottom.indent{
+      margin-left: 20px !important;
+      }
+      .tall{
+      height: 250px;
+      }
+    }
+
+      @media only screen and (max-width : 420px) {
+      .title {
+      -webkit-transform-origin: 0;
+      transform-origin: 0;
+      font-size: 30px;
+      }
+    }
+
+    @media only screen and (max-width: 380px){
+    .bottom.indent{
+      margin-left: 0px !important;
+      margin-right: 0px !important;
+      }
+      .title {
+      -webkit-transform-origin: 0;
+      transform-origin: 0;
+      font-size: 25px;
+      }
+    }
