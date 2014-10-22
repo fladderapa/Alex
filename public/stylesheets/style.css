@@ -22,11 +22,11 @@ core-toolbar {
   color: #f1f1f1;
   fill: #f1f1f1;
   background-color: transparent;
-  height: 350px;
+  height: 240px;
 }
 
 .indexHeader::shadow #headerBg{
-  background-image: url("/images/hero9.jpg");
+  background-image: url("/images/selfie2.jpg");
 }
 
 /* background for toolbar when it is condensed */
@@ -83,3 +83,16 @@ h1, h2, h3 {
 }
 
 
+/*Media Queries*/
+
+@media only screen and (min-width : 800px) {
+
+  core-toolbar {
+    height: 400px;
+  }
+
+  .indexHeader::shadow #headerBg{
+    background-image: url("/images/selfie2Small.jpg");
+  }
+
+}
