@@ -26,7 +26,7 @@ core-toolbar {
 }
 
 .indexHeader::shadow #headerBg{
-  background-image: url("/images/selfie2.jpg");
+  background-image: url("/images/selfie2PartColor.jpg");
 }
 
 /* background for toolbar when it is condensed */
@@ -92,7 +92,7 @@ h1, h2, h3 {
   }
 
   .indexHeader::shadow #headerBg{
-    background-image: url("/images/selfie2Small.jpg");
+    background-image: url("/images/selfie2PartColor2.jpg");
   }
 
 }
