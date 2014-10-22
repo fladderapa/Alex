@@ -2,102 +2,79 @@ extends layout
 
 block content
 	core-scroll-header-panel.indexHeader(condenses='true')
-		core-toolbar.tall
-			.bottom.indent.title Alexander Afzelius Puccini
+		core-toolbar
+			h3.bottom.indent.title Alexander Afzelius Puccini
 		.content
 			.section
 				.container
 					.row
-						.col-xs-6
-							.div(style="background-color: white; text-align:center;")
-								img(src="/images/blogIcon.ico", style="height: 32px;")
-						.col-xs-6
-							.div(style="background-color: white; text-align:center;")
-								img(src="/images/blogIcon.ico", style="height: 32px;")
-			.section.section-profile
-				.container
-					.row
-						.col-xs-12.text-center
-							.headline
-								h1
-									|Snabbfakta
-			.section.section-projects
-				.container
-					.row
-						.col-xs-12.text-center
-							h1
-								|Tidigare projekt
-			.section
-				.container
-					.row
-						.col-md-6
-							.panel.panel-default
-								.panel-thumbnail
-									a(href="/gullmarsfrisorerna")
-										img.img-responsive(src='http://www.xn--gullmarsfrisrerna-b0b.se/img/saloon-light2.JPG')
-								.panel-body
-									p.lead Gullmarsfrisörerna
-									p 120k Followers, 900 Posts
+						.col-md-4
+							div.card
+								div.card__media
+									img.card__media--image(src='http://theselfemployed.com/wp-content/uploads/2012/04/bigstock_Young_business_people_meeting__12552560.jpg', alt='')
+									h3.card__headline Tidigare anställningar
+								div.card__body
 									p
-										img(src='http://api.randomuser.me/portraits/med/men/20.jpg', width='28px', height='28px')
-										img(src='http://api.randomuser.me/portraits/med/men/21.jpg', width='28px', height='28px')
-										img(src='http://api.randomuser.me/portraits/med/men/14.jpg', width='28px', height='28px')
-						.col-md-6
-							.panel.panel-default
-								.panel-thumbnail
-									img.img-responsive(src='http://109.74.8.246:3000/img/MsTrez.jpg')
-								.panel-body
-									p.lead MsTrez
-									p 120k Followers, 900 Posts
+										| Material Design really is nice and I can't wait to see it on my Android Device! These amazing dummy-images are taken from
+										a(href='http://unsplash.com/') http://unsplash.com/
+										| .
+								footer.card__footer
+						.col-md-4
+							div.card
+								div.card__media
+									img.card__media--image(src='http://macro-training.ro/wp-content/uploads/2013/09/project_management.jpg', alt='')
+									h3.card__headline Tidigare projekt
+								div.card__body
 									p
-										img(src='http://api.randomuser.me/portraits/med/men/20.jpg', width='28px', height='28px')
-										img(src='http://api.randomuser.me/portraits/med/men/21.jpg', width='28px', height='28px')
-										img(src='http://api.randomuser.me/portraits/med/men/14.jpg', width='28px', height='28px')
+										| Material Design really is nice and I can't wait to see it on my Android Device! These amazing dummy-images are taken from
+										a(href='http://unsplash.com/') http://unsplash.com/
+										| .
+								footer.card__footer
+						.col-md-4
+							div.card
+								div.card__media
+									img.card__media--image(src='http://www.bloggvarlden.com/wp-content/uploads/2012/09/sluta-klaga-p%C3%A5-bloggare.jpeg', alt='')
+									h3.card__headline Blogg
+								div.card__body
+									p
+										| Material Design really is nice and I can't wait to see it on my Android Device! These amazing dummy-images are taken from
+										a(href='http://unsplash.com/') http://unsplash.com/
+										| .
+								footer.card__footer
 					.row
-						.col-md-6
-							.panel.panel-default
-								.panel-thumbnail
-									img.img-responsive(src='http://alexandrapuccini.se/img/alexandra-skolkampanj.jpg')
-								.panel-body
-									p.lead Alexandra Puccini
-									p 120k Followers, 900 Posts
+						.col-md-4
+							div.card
+								div.card__media
+									img.card__media--image(src='http://www.aiche.org/sites/default/files/styles/aiche_content/public/images/overview_page/global_contact-us-iStk.jpg', alt='')
+									h3.card__headline Kontakt
+								div.card__body
 									p
-										img(src='http://api.randomuser.me/portraits/med/men/20.jpg', width='28px', height='28px')
-										img(src='http://api.randomuser.me/portraits/med/men/21.jpg', width='28px', height='28px')
-										img(src='http://api.randomuser.me/portraits/med/men/14.jpg', width='28px', height='28px')
-			.section.section-projects
-				.container
-					.row
-						.col-xs-12.text-center
-							h1
-								|Arbeten
-			.section
-				.container
-					.row
-						.col-md-6
-							.panel.panel-default
-								.panel-thumbnail
-									img.img-responsive(src='http://www.4flush.com/wp-content/uploads/2012/12/casino-cosmopol-stockholm.jpg')
-								.panel-body
-									p.lead Casino Cosmopol
-									p 120k Followers, 900 Posts
+										| Material Design really is nice and I can't wait to see it on my Android Device! These amazing dummy-images are taken from
+										a(href='http://unsplash.com/') http://unsplash.com/
+										| .
+								footer.card__footer
+						.col-md-4
+							div.card
+								div.card__media
+									img.card__media--image(src='http://i.telegraph.co.uk/multimedia/archive/02511/school-classroom_2511962b.jpg', alt='')
+									h3.card__headline Utbildning
+								div.card__body
 									p
-										img(src='http://api.randomuser.me/portraits/med/men/20.jpg', width='28px', height='28px')
-										img(src='http://api.randomuser.me/portraits/med/men/21.jpg', width='28px', height='28px')
-										img(src='http://api.randomuser.me/portraits/med/men/14.jpg', width='28px', height='28px')
-						.col-md-6
-							.panel.panel-default
-								.panel-thumbnail
-									img.img-responsive(src='http://www.adweek.com/files/imagecache/node-detail/news_article/bk.jpg')
-								.panel-body
-									p.lead Burger King
-									p 120k Followers, 900 Posts
+										| Material Design really is nice and I can't wait to see it on my Android Device! These amazing dummy-images are taken from
+										a(href='http://unsplash.com/') http://unsplash.com/
+										| .
+								footer.card__footer
+						.col-md-4
+							div.card
+								div.card__media
+									img.card__media--image(src='http://www.bloggvarlden.com/wp-content/uploads/2012/09/sluta-klaga-p%C3%A5-bloggare.jpeg', alt='')
+									h3.card__headline Blogg
+								div.card__body
 									p
-										img(src='http://api.randomuser.me/portraits/med/men/20.jpg', width='28px', height='28px')
-										img(src='http://api.randomuser.me/portraits/med/men/21.jpg', width='28px', height='28px')
-										img(src='http://api.randomuser.me/portraits/med/men/14.jpg', width='28px', height='28px')
-					
-							
+										| Material Design really is nice and I can't wait to see it on my Android Device! These amazing dummy-images are taken from
+										a(href='http://unsplash.com/') http://unsplash.com/
+										| .
+								footer.card__footer
 	script.
 		var titleStyle = document.querySelector('.title').style;addEventListener('core-header-transform', function(e) {var d = e.detail;var m = d.height - d.condensedHeight;var scale = Math.max(0.75, (m - d.y) / (m / 0.25)  + 0.75);titleStyle.transform = titleStyle.webkitTransform = 'scale(' + scale + ') translateZ(0)';});
 	
