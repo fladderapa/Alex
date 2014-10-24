@@ -1,17 +1,16 @@
 body {
-  /*background: #eee;*/
+ 
   color: #222;
   font-family: 'Roboto', sans-serif;
   font-size: 1.5rem;
-}
-
-.content{
-  background: url("http://i.imgur.com/L6CzgSG.jpg") no-repeat center center fixed;
+  background: url(http://2.bp.blogspot.com/_UeKpPmoedmk/TJttTsVSoZI/AAAAAAAAAik/161bEYBfUuc/s1600/Black+and+White+Los+Angeles+Harbor+Walp+TLG.png) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
+
+
 
 h1,h2,h3 {
   font-family: 'Roboto Slab', serif;
@@ -35,6 +34,7 @@ core-toolbar {
 
 .indexHeader::shadow #headerBg{
   background-image: url("/images/selfie2PartColor.jpg");
+
 }
 
 /* background for toolbar when it is condensed */
