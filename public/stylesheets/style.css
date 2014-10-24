@@ -17,6 +17,23 @@ h1,h2,h3 {
   font-weight: normal;
 }
 
+ul{
+  list-style: none;
+}
+
+ul img {
+  padding: 15px;
+}
+
+ul span {
+  font-size: 17px;
+}
+
+.socialCard{
+  padding-top: 30px !important;
+  padding-bottom: 30px !important;
+}
+
 core-scroll-header-panel {
   position: absolute;
   top: 0;
@@ -31,6 +48,8 @@ core-toolbar {
   background-color: transparent;
   height: 240px;
 }
+
+
 
 .indexHeader::shadow #headerBg{
   background-image: url("/images/selfie2PartColor.jpg");
@@ -54,6 +73,7 @@ core-toolbar {
 h1, h2, h3 {
   font-family: 'Roboto Slab', serif;
   font-weight: normal;
+  color: white;
 }
 
 .card {
@@ -155,14 +175,20 @@ body {
 
 /*Media Queries*/
 
-@media only screen and (min-width : 800px) {
+@media only screen and (max-width : 420px) {
 
-  core-toolbar {
-    height: 400px;
+.personal-card .personal-card-header{
+  height: 200px;
+}
+
+.personal-card .personal-card-body .description{
+  margin-bottom: 15px;
+}
+
+}
+
+@media only screen and (min-width : 1090px) {
+  .card__media--image {
+    max-height: 240px;
   }
-
-  .indexHeader::shadow #headerBg{
-    background-image: url("/images/selfie2PartColor2.jpg");
-  }
-
 }

@@ -18,7 +18,7 @@ block content
 				.col-md-4
 					div.card
 						div.card__media
-							img.card__media--image(src='http://theselfemployed.com/wp-content/uploads/2012/04/bigstock_Young_business_people_meeting__12552560.jpg', alt='')
+							img.card__media--image(src='https://cdn2.cdnme.se/cdn/8-2/548546/images/2010/hand_81969910.jpg', alt='')
 							h3.card__headline Tidigare anställningar
 						div.card__body
 							p
@@ -29,7 +29,7 @@ block content
 				.col-md-4
 					div.card
 						div.card__media
-							img.card__media--image(src='http://macro-training.ro/wp-content/uploads/2013/09/project_management.jpg', alt='')
+							img.card__media--image(src='http://calprepare.com/sites/default/files/images/iStock_000017123267InnovatePilotProjectLarge.jpg', alt='')
 							h3.card__headline Tidigare projekt
 						div.card__body
 							p
@@ -52,7 +52,7 @@ block content
 				.col-md-4
 					div.card
 						div.card__media
-							img.card__media--image(src='http://www.aiche.org/sites/default/files/styles/aiche_content/public/images/overview_page/global_contact-us-iStk.jpg', alt='')
+							img.card__media--image(src='http://www.siomonnpulla.com/wp-content/uploads/2012/06/contact-me.jpg', alt='')
 							h3.card__headline Kontakt
 						div.card__body
 							p
@@ -63,7 +63,7 @@ block content
 				.col-md-4
 					div.card
 						div.card__media
-							img.card__media--image(src='http://i.telegraph.co.uk/multimedia/archive/02511/school-classroom_2511962b.jpg', alt='')
+							img.card__media--image(src='http://www.imagesource.com/Doc/IS0/Media/CMS3/5/8/a/9/IS098QY2O.jpg', alt='')
 							h3.card__headline Utbildning
 						div.card__body
 							p
@@ -73,15 +73,26 @@ block content
 						footer.card__footer
 				.col-md-4
 					div.card
-						div.card__media
-							img.card__media--image(src='http://www.bloggvarlden.com/wp-content/uploads/2012/09/sluta-klaga-p%C3%A5-bloggare.jpeg', alt='')
-							h3.card__headline Blogg
-						div.card__body
-							p
-								| Material Design really is nice and I can't wait to see it on my Android Device! These amazing dummy-images are taken from
-								a(href='http://unsplash.com/') http://unsplash.com/
-								| .
+						div.card__body.socialCard
+							ul
+								li 
+									img(src="https://cdn4.iconfinder.com/data/icons/cc_mono_icon_set/blacks/32x32/phone_2.png")
+									span 076 023 63 47
+								li 
+									img(src="https://cdn4.iconfinder.com/data/icons/miu/22/common_email_envelope_mail_-32.png")
+									span alex.afzelius@gmail.com
+								li 
+									img(src="https://cdn3.iconfinder.com/data/icons/picons-social/57/38-instagram-32.png")
+									span fladderapa
+								li 
+									img(src="https://cdn3.iconfinder.com/data/icons/picons-social/57/06-facebook-32.png")
+									span Alexander Puccini Afzelius
+								li 
+									img(src="https://cdn3.iconfinder.com/data/icons/picons-social/57/03-twitter-32.png")
+									span @AfzeliusP
 						footer.card__footer
+	.section(style="height: 50px;")
+
 
 	script.
 		var titleStyle = document.querySelector('.title').style;addEventListener('core-header-transform', function(e) {var d = e.detail;var m = d.height - d.condensedHeight;var scale = Math.max(0.75, (m - d.y) / (m / 0.25)  + 0.75);titleStyle.transform = titleStyle.webkitTransform = 'scale(' + scale + ') translateZ(0)';});
