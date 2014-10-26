@@ -1,16 +1,21 @@
-body {
+html body {
  
   color: #222;
   font-family: 'Roboto', sans-serif;
   font-size: 1.5rem;
-  background: url('http://i.imgur.com/L6CzgSG.jpg') no-repeat center center fixed; 
+  height: 100%;
+
+}
+
+
+.page{
+  min-height: 100%;
+    background: url('http://i.imgur.com/L6CzgSG.jpg') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
-
-
 
 h1,h2,h3 {
   font-family: 'Roboto Slab', serif;
