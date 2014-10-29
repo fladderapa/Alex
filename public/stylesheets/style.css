@@ -4,14 +4,14 @@ html body {
   font-family: 'Roboto', sans-serif;
   font-size: 1.5rem;
   height: 100%;
+  background: url('http://i.imgur.com/L6CzgSG.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 
 }
 
-
-.page{
-  min-height: 100%;
-    background: url('http://i.imgur.com/L6CzgSG.jpg');
-}
 
 h1,h2,h3 {
   font-family: 'Roboto Slab', serif;
@@ -28,6 +28,7 @@ ul img {
 
 ul span {
   font-size: 17px;
+  color: #332100;
 }
 
 .socialCard{
